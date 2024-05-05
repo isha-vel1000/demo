@@ -25,6 +25,7 @@ Cd Downloads
 tar -xvf hadoop-3.0.0.tar.gz
 sudo mv hadoop-3.0.0 /usr/local/hadoop
 sudo chown -R hduser /usr/local/
+su hduser
 sudo nano ~/.bashrc
 ***
 #HADOOP VARIABLES START
@@ -40,7 +41,7 @@ export HADOOP_COMMON_LIB_NATIVE_DIR=$HADOOP_HOME/lib/native
 export HADOOP_OPTS="-Djava.library.path=$HADOOP_HOME/lib"
 #HADOOP VARIABLES END
 ***
-su hduser
+
 
 source ~/.bashrc
 sudo nano /usr/local/hadoop/etc/hadoop/hadoop-env.sh
