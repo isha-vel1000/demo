@@ -136,8 +136,8 @@ cd $HIVE_HOME
 cd bin
 hive
 
-sudo mv home/comp/Downloads/airports.csv home/hduser/
-sudo mv home/comp/Downloads/airports.csv home/hduser/
+sudo mv home/comp/Downloads/airports.csv /home/hduser/
+sudo mv home/comp/Downloads/airports.csv /home/hduser/
 
 SHOW DATABASES;
 CREATE DATABASE flight;
