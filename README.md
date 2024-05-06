@@ -3,6 +3,10 @@ this is my demo repo
 autor-isha velankar hello
 
 # HADOOP:
+1. sudo apt-get install openjdk-8-jdk
+2. sudo update-alternatives --config java
+3. select the option for java-8
+
 sudo deluser hduser
 sudo groupdel hadoop
 cd /usr/local/
